@@ -1,29 +1,34 @@
 {
   "expo": {
-    "name": "MiPrimeraApp",
+    "name": "Víctor Ordoñez",
     "slug": "MiPrimeraApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/Inicio/icono.png",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/Inicio/inicio.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/Inicio/icono.png",
+        "backgroundColor": "#000000"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.victor.MiPrimeraApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/Inicio/icono.png"
+    },
+    "description": "Aplicación desarrollada por Víctor Ordoñez para demostrar compatibilidad entre Android e iOS, con funciones de cámara, sensores y perfil de usuario."
   }
 }
